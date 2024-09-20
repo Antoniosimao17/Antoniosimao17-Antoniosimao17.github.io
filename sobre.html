@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <style>
+                 @media(max-width:600px){
+body{
+  background-color:rgb(1, 1, 29);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flexbox;
+  justify-content:center;
+  align-items: center;
+  font-size: auto;
+}
+nav {
+    justify-content: space-between;
+    padding: 3%;
+    margin: 0;
+    width: 94.3%;
+    text-align: center;
+    background:blue;
+}
+}
+    @media(min-width:600px){
+body{
+    flex-direction: column;
+  background-color:rgb(1, 1, 29);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  flex-flow: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: auto;
+display: flexbox;
+}
+nav{
+            flex-wrap: wrap-reverse;
+        position: relative;
+        margin-left: 48%;
+        width: 700px;
+        height: 50px;
+        background: transparent;
+        border-radius: 15px;
+        display: flexbox;
+        justify-content:end;
+        align-items:last end;
+           }
+        nav a{
+       padding: 0;
+       margin: 0;
+       position: relative;
+       display: inline-block;
+       font-size:auto;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 700;
+       color: whitesmoke;
+       text-decoration: none;
+       padding: 18px;
+       z-index: 29; 
+   }
+   a:hover{
+    color: blue;
+   }
+  
+}
+    a{
+        margin: 1%;
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } 
+        p,h1{
+            cursor: context-menu;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: white;
+        }
+        h4{
+            cursor: context-menu;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: red;
+            
+        }
+        .translateA {
+            max-width: 100%;
+            border: 2px solid transparent;
+            border-radius: 30px;
+            background-color: blue;
+            box-shadow: 00 5px 5px 5px rgb(2, 5, 199);
+            animation: translateA 1s alternate;
+        }
+        .translateA:hover{
+            background:linear-gradient(black,black,blue);
+        }
+        .translateA{
+            animation: translateA 5s ease-in-out;
+         }
+         @keyframes translateA{
+            0%{
+                transform: scale(0);
+            }
+            50%{
+                transform: scale(1.0);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        li{
+            color: red;
+        }
+        h2{
+            cursor: context-menu;
+            color: blue;
+            animation: translateX 1s ease-in-out;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="habilidades.html">Experiência</a>
+        <a href="projectos.html">Projectos</a>
+        <a href="contactos.html">Contacto</a>
+    </nav><br><br><br>
+    <div class="translateA ">
+    <h1>SOBRE MIM</h1>
+    <p>Sou o António Pedro josé Simão conhecido profissionalmente por ANONYMOUS STRING, Sou Front-End</p>
+    <p>Nasci em Angola propriamente no continente Africano tenho 17 anos de idade e já trabalhei em dois projectos web</p>
+    <p>Sou estudante médio técnico profissional. Tenho experiência em HTML e CSS.</p>
+    <p>Busco experiência em JS e PHP. Estudo a programação web á 4 meses.</p>
+    <p>Meus interesses são: </p>
+    <ul><li>
+        <h4> Ser um programador Freelancer</h4></li>
+       <li> <h4>Elevar o meu nome e a minha experiência</h4></li>
+       <li> <h4>Ter emprego em uma empresa e exercer a função que eu domino</h4></li>
+       <li><h4>Como também, estou disponivel para fazer parte de qualquer projecto</h4></li>
+ </ul>
+</div>
+<br>
+</body>
+</html>
